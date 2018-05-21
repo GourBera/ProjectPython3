@@ -9,5 +9,8 @@ if __name__ == '__main__':
 
 
 print('Hello Python for Git')
+print('---------------------------------')
+
+print('Next Change')
 
 
