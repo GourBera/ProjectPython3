@@ -1,0 +1,52 @@
+[
+    "#document",
+    {
+        "note": {
+            "#text": [
+                {
+                    "data": "\n  "
+                },
+                {
+                    "data": "\n  "
+                },
+                {
+                    "data": "\n  "
+                },
+                {
+                    "data": "\n  "
+                },
+                {
+                    "data": "\n  "
+                },
+                {
+                    "data": "\n"
+                }
+            ],
+            "date": {
+                "#text": {
+                    "data": "2018-10-03"
+                }
+            },
+            "hour": {
+                "#text": {
+                    "data": "11:30"
+                }
+            },
+            "to": {
+                "#text": {
+                    "data": "Some one"
+                }
+            },
+            "from": {
+                "#text": {
+                    "data": "Gour"
+                }
+            },
+            "body": {
+                "#text": {
+                    "data": "I still remember you"
+                }
+            }
+        }
+    }
+]
