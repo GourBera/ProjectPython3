@@ -5,11 +5,6 @@ Created on Apr 3, 2018
 '''
 
 if __name__ == '__main__':
-    pass
-
-
-
-import datetime as dt
-
-print(dt.datetime.now())
+    import datetime as dt
+    print(dt.datetime.now())
 

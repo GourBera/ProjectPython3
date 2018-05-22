@@ -6,8 +6,6 @@ Created on Mar 6, 2018
 from pip._vendor.requests.packages.urllib3.connectionpool import xrange
 from ctypes.test.test_pickling import name
 
-if __name__ == '__main__':
-    pass
 
 '''
 

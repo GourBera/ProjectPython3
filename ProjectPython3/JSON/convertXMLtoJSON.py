@@ -3,11 +3,6 @@ Created on Mar 12, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
-
 from xml.dom import minidom
 import simplejson as json
 

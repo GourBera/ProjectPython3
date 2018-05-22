@@ -3,10 +3,6 @@ Created on May 22, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
 import smtplib
 
 
@@ -36,4 +32,6 @@ TEXT = """https://yuji.wordpress.com/2011/06/22/python-imaplib-imap-example-with
 gmail_sender = '@gmail.com'
 gmail_passwd = ''
 
-sendGmail(TO, SUBJECT, TEXT, gmail_sender, gmail_passwd)
+
+if __name__ == '__main__':
+    sendGmail(TO, SUBJECT, TEXT, gmail_sender, gmail_passwd)

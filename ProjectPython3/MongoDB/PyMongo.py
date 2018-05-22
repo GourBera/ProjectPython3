@@ -5,9 +5,6 @@ Created on May 21, 2018
 '''
 from pymongo import *
 
-if __name__ == '__main__':
-    pass
-
     
 cli = mongo_client
 db = cli["Library"]

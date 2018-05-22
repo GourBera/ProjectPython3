@@ -3,10 +3,6 @@ Created on May 21, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
 import numpy as np
 import pandas as pd
 #import matplotlib as plt

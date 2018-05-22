@@ -3,10 +3,6 @@ Created on Mar 8, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
 '''
 Convert xml to json
 '''

@@ -3,16 +3,11 @@ Created on May 11, 2018
 
 @author: berag
 '''
-
-if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
-    pass
-
 import numpy
 import pandas as pd
 import statsmodels.api as sm
 #from scipy.linalg import svdvals
-
+#import sys;sys.argv = ['', 'Test.testName']
 
 def simple_heuristic(file_path):
     
