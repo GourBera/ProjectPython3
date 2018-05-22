@@ -3,9 +3,6 @@ Created on May 11, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
 import pandas as pd
 import numpy as np
 

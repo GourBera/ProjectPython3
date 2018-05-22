@@ -20,10 +20,6 @@ signal , select , shutil , tempfile , and others
 For various other system-related tasks
 '''
 
-if __name__ == '__main__':
-    pass
-
-
 import os
 os.environ['foo'] = 'bar'
 print(os.environ['foo'])

@@ -4,8 +4,6 @@ Created on May 21, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
 
 '''     Use a list comprehension to build a list called even_squares in the editor.
         Your even_squares list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.

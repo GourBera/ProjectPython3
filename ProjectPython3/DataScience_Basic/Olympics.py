@@ -4,9 +4,6 @@ Created on May 10, 2018
 @author: berag
 '''
 from numpy.ma.core import mean
-
-if __name__ == '__main__':
-    pass
 import numpy
 from pandas import DataFrame, Series
 

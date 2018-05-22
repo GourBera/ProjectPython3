@@ -4,10 +4,6 @@ Created on 29-Apr-2018
 @author: Titan
 '''
 
-if __name__ == '__main__':
-    pass
-
-
 def daysInMonth1(year, month):
     return 30
 

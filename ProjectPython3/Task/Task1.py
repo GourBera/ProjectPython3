@@ -4,17 +4,7 @@ Created on 22-May-2018
 @author: Titan
 '''
 
-if __name__ == '__main__':
-    pass
-'''
-Created on 24-Apr-2018
-
-@author: Titan
-'''
 from audioop import minmax
-
-if __name__ == '__main__':
-    pass
 
 
 '''

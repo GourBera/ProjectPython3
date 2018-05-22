@@ -4,9 +4,6 @@ Created on Mar 7, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
 class Employee():
     def __init__(self, first, last):
         self.first = first

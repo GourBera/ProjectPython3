@@ -4,9 +4,6 @@ Created on 20-Apr-2018
 @author: Titan
 '''
 
-if __name__ == '__main__':
-    pass
-
 
 a = [1, 3, 4, 2] 
 print(a)

@@ -14,8 +14,6 @@ Created on May 9, 2018
 
 '''
 
-if __name__ == '__main__':
-    pass
 
 import re
 '''

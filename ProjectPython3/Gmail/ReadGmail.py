@@ -3,11 +3,6 @@ Created on May 22, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
-
 import smtplib
 import time
 import imaplib

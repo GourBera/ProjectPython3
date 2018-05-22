@@ -4,10 +4,6 @@ Created on May 22, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
-
 import statistics as st
 
 print(st.mean([1,2,5,9,4,3]))   #4

@@ -4,8 +4,6 @@ Created on 12-Apr-2018
 @author: Titan
 '''
 
-if __name__ == '__main__':
-    pass
 
 '''
 spam = "7"

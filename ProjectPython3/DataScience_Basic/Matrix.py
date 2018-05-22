@@ -4,8 +4,7 @@ Created on May 11, 2018
 @author: berag
 '''
 import numpy
-if __name__ == '__main__':
-    pass
+
 
 
 a = [1,2,3,4,5]

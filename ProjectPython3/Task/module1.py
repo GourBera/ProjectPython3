@@ -4,9 +4,6 @@ Created on May 21, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
 str = "This is sample string"
 print(str.count("is",0,len(str)))   
 

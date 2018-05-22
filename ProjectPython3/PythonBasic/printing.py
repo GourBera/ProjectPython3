@@ -4,9 +4,6 @@ Created on Apr 2, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
 Value = 20
 # For details, refer "printf style formatting" [https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting ]
 print("Printing Variables: %d" %Value)  # integer

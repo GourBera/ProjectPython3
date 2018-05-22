@@ -3,10 +3,6 @@ Created on May 10, 2018
 
 @author: berag
 '''
-
-if __name__ == '__main__':
-    pass
-
 from pandas import DataFrame, read_csv
 # General syntax to import a library but no functions: 
 ##import (library) as (give the library a nickname/alias)

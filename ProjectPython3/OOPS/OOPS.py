@@ -5,8 +5,6 @@ Created on Mar 7, 2018
 '''
 from abc import abstractclassmethod
 
-if __name__ == '__main__':
-    pass
 
 '''
 def define a function

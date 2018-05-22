@@ -4,10 +4,6 @@ Created on Apr 2, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
-
 dict = {}
 print(dict)
 

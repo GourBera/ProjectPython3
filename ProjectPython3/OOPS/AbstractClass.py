@@ -4,10 +4,6 @@ Created on Mar 7, 2018
 @author: berag
 '''
 
-if __name__ == '__main__':
-    pass
-
-
 class AbstractClass:
     
     def do_something(self):
