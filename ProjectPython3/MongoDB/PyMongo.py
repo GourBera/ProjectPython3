@@ -6,7 +6,7 @@ Created on May 21, 2018
 from pymongo import *
 
     
-cli = mongo_client
+cli = mongo_client()
 db = cli["Library"]
     
 coll = db["Books"]
