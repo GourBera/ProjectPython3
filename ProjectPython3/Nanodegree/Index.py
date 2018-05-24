@@ -18,4 +18,12 @@ set                  No          Yes         { } or set()               {5, 'yes
 dictionary           No          Keys: No    { } or dict()              {'Jun':75, 'Jul':89}
 '''
 
+'''
+for i in range(5, 35, 5):
+    print(i)    
+    
+
+'''
+
+
 

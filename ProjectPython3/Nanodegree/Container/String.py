@@ -55,7 +55,7 @@ print(str.ljust(width, fillchar))
 '''
 
 print(13.37.islower())      #AttributeError: 'float' object has no attribute 'islower'
-
+#"replace()".replace(old, new, count)
 
 
 
