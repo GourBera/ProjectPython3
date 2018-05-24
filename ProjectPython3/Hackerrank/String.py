@@ -7,7 +7,7 @@ Created on May 22, 2018
 if __name__ == '__main__':
     pass
 
-
+'''
 def print_formatted(number):
     for i in range(1, number+1):
         print("{} {} {} {}".format(i, oct(i)[2:], hex(i)[2:], bin(i)[2:]))
@@ -15,8 +15,47 @@ def print_formatted(number):
 
 print_formatted(2)
 
-str = "sdfjgkjhlksnfdhfoieryfsdbnfbf"
+       
+import string
+word = "word!"
+print(word.strip(string.punctuation))
+'''
+'''
 
-for i in str:
-    for j in range(0, 3):
-        print(i, end='')
+if __name__ == '__main__':
+    N = int(input('enter')) 
+    reminder = N % 2 
+
+    if reminder == 0 and (2<= N <=5): 
+        print('Not Weird')
+    elif reminder == 0 and (6<= N <=20): 
+        print('Weird')
+    elif reminder == 0 and N > 20: 
+        print("Not Weird")
+    elif N % 2 != 0: 
+        print('Weird')
+'''        
+        
+import calendar
+
+print(calendar.isleap(1990))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
