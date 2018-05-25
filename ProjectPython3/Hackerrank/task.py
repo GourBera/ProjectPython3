@@ -69,7 +69,7 @@ for _ in range(student):
 for i in zip(*marks): 
     print( sum(i)/len(i) )  
 '''   
-
+'''
 distinct_country = set()   
 for i in range(int(input('prompt'))):
     country = input('prompt')
@@ -77,7 +77,24 @@ for i in range(int(input('prompt'))):
         distinct_country.add(country)
         
 print(len(distinct_country))
+'''
     
+if __name__ == '__main__':
+    from statistics import mean
+    
+    nofstud = int(input('enter'))
+    student_marks = {}
+    
+    for _ in range(nofstud):
+        line = input('neter').split()
+        name, scores = line[0], line[1:]
+        scores = list(map(float, scores))
+        student_marks[name] = scores
+        
+    query_name = input('enter')
+    query_scores = student_marks[query_name]
+    print("{0:.2f}".format(mean(query_scores)))
+    #print("{0:.2f}".format(sum(query_scores)/(len(query_scores))))    
     
    
    
