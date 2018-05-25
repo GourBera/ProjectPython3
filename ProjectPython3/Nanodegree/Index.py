@@ -25,5 +25,53 @@ for i in range(5, 35, 5):
 
 '''
 
+import time
+start_time = time.time()
+#main()
+print("--- %s seconds ---" % (time.time() - start_time))
+
+'''
+csv: very convenient for reading and writing csv files
+collections: useful extensions of the usual data types including OrderedDict, defaultdict and namedtuple
+random: generates pseudo-random numbers, shuffles sequences randomly and chooses random items
+string: more functions on strings. This module also contains useful collections of letters like 
+        string.digits (a string containing all characters which are valid digits).
+re: pattern-matching in strings via regular expressions
+math: some standard mathematical functions
+os: interacting with operating systems
+os.path: submodule of os for manipulating path names
+sys: work directly with the Python interpreter
+json: good for reading and writing json files (good for web work)
+'''
+
+from datetime import datetime
+import pytz
+
+utc = pytz.utc
+ist = pytz.timezone('Asia/Kolkata')
+
+now = datetime.time(tz = utc)
+ist_now = now.astimezone(ist)
+
+print(now)
+print(ist_now)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
