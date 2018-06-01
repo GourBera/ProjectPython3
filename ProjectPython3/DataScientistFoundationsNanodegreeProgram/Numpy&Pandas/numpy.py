@@ -19,9 +19,9 @@ def read_csv(filename):
 
 import pandas as pd
 
-x = pd.read_csv(r'C:\Users\berag\Desktop\DataScience\DataSource/titanic-data.csv')        
+#x = pd.read_csv(r'C:\Users\berag\Desktop\DataScience\DataSource/titanic-data.csv')        
 
-print(x.head(5))
+#print(x.head(5))
 
 
 
