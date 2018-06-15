@@ -17,11 +17,16 @@ def read_csv(filename):
 #read_csv('./DataSource/titanic-data.csv')
 
 
-import pandas as pd
+#import pandas as pd
 
 #x = pd.read_csv(r'C:\Users\berag\Desktop\DataScience\DataSource/titanic-data.csv')        
 
 #print(x.head(5))
+
+
+
+print((5+ 8+ 15+ 7+ 10+ 22+ 3+ 1+ 15)/9)
+
 
 
 
