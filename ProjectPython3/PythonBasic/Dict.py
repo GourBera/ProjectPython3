@@ -13,6 +13,10 @@ print(dict)
 dict = {'key1': 10, 'key2':20, 'key3':30, 'key4':40, 'key5':50}
 print(dict)
 
+dict['key6'] = 60
+
+print(dict)
+
 print(dict.values())
 
 b = dict.copy()
