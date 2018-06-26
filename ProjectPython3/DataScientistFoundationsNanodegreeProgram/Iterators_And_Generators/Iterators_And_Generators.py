@@ -7,6 +7,23 @@ Created on May 24, 2018
 if __name__ == '__main__':
     pass
 
+add = lambda x, y: x + y
+
+print(add(3, 5))
+# Output: 8
+
+# List sorting
+a = [(1, 2), (4, 1), (9, 10), (13, -3)]
+a.sort(key=lambda x: x[1])
+
+print(a)
+# Output: [(13, -3), (4, 1), (1, 2), (9, 10)]
+
+# Parallel sorting of lists
+data = zip(list1, list2)
+data.sort()
+list1, list2 = map(lambda t: list(t), zip(*data))
+
 '''
 x = [1,2,3,4]
 b = list(enumerate(x))
