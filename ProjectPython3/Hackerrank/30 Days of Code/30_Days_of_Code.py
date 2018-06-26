@@ -6,6 +6,9 @@ Created on 11-Jun-2018
 
 if __name__ == '__main__':
     pass
+import string
+
+print(len(string.punctuation))
 
 
 #Day 1
