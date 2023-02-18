@@ -1,52 +1,17 @@
-'''
-Created on Apr 2, 2018
-
-@author: berag
-'''
-
 lst = []
-print(lst)
-
 items = [1, "val1", "val2", 1]
-print(items)
-print(type(items))
-
-items.append("val3")
-print(items)
-
 items.insert(3, "val2.5")
-print(items)
-
 print(items.count("val1"))
+# find the index of the first occurrence of a specified item | list.index(item, start, end)
+print(items.index("val1", 1, len(items)))
 
-print(items.index("val1", 1, len(items))) #Find
-
-
-try:
-    print(items.index("val1", 3, len(items)))
-except:
-    print("Not Found")    
-finally:
-    print("Not Found")
-
-print(items[2])
-
-for i in items:
-    print(i)
-
-
-items.pop(4)
-print(items)
-
+# pop() ==> removes and returns the element at the specified index
+# remove() ==> removes the first occurrence of the specified value in the list.
+value_removed = items.pop(0)    # 1
 items.remove(1)
-print(items)
-
 items.reverse()
-print(items)
-
-#empty list
 items.clear()
-print(items)
+
 
 
 
