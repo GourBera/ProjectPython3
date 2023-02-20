@@ -1,3 +1,4 @@
+"""
 Collections
     namedtuple( )
     deque
@@ -18,3 +19,4 @@ Itertools
     zip_longest(*iterables, fillvalue=None): Returns an iterator that aggregates the elements of iterables into tuples, filling in missing values with fillvalue.
 
 
+"""
