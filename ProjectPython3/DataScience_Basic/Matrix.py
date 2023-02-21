@@ -1,10 +1,4 @@
-'''
-Created on May 11, 2018
-
-@author: berag
-'''
 import numpy
-
 
 
 a = [1,2,3,4,5]
